@@ -1,0 +1,135 @@
+/* :root {
+    --dark-cyan: hsl(185, 75%, 39%);
+    --very-dark-desaturated: hsl(229, 23%, 23%);
+    --dark-grayish-blue: hsl(227, 10%, 46%);
+    --dark-gray: hsl(0, 0%, 59%);
+  } */
+
+
+body{
+    box-sizing: border-box;
+    background: url("../images/bg-pattern-top.svg") right 50vw bottom 30vh no-repeat, url("images/bg-pattern-bottom.svg") left 50vw top 45vh no-repeat;
+    background-color: hsl(185, 75%, 39%);
+}
+.card-container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    margin-top: 7rem;
+    position: relative;
+    max-height: 400px;
+    min-height: 300px;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 3px 2px rgb(70, 69, 69);
+    background-color: white;
+    
+}
+
+.card-top{
+    position: relative;
+    
+}
+
+.card-top-img{
+    width: 100%;
+    display: inline;
+    border-radius: 1rem 1rem 0 0 ;
+}
+
+.card-profile-img{
+    border-radius: 100%;
+    border: 5px solid white;
+    position: absolute;
+    margin: auto;   
+    max-width: 55%;
+    max-height: 55%;
+    top: 85%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: transform .5s;
+}
+
+.card-profile-img:hover{
+    transform: scale(1.2);
+}
+
+h3{
+display: inline;
+font-weight: 700;
+}
+
+.profile-details{
+    text-align: center;
+    margin-top: 20%;
+    min-width: 2rem;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.profile-details-age, .profile-details-location{
+    color: grey;
+}
+.profile-details-age{
+    margin-left: 0.4rem;
+    font-size: 1.2rem;
+}
+
+.card-details{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    border-top: 1px solid rgb(167, 165, 165);
+    padding-top: 2rem;
+    font-family: 'Kumbh Sans', sans-serif;
+    padding-bottom: 1rem;
+    
+}
+
+.card-follow, .card-likes, .card-photo{
+    text-align: center;
+    padding-bottom: 0.5rem;
+    transition: all 0.05s ease;
+}
+
+
+
+.card-details-under-text{
+    font-size: 0.8rem;
+    color: grey;
+}
+.card-details h3:hover{
+    color: rgb(32, 216, 216);
+    cursor: pointer;
+}
+.card-details :hover{
+    cursor: pointer;
+    font-size: 0.8rem;
+}
+
+.card-details h3{
+    font-size: medium;
+}
+
+.attribution {
+    font-size: 1rem; 
+    text-align: center; 
+    color: white;
+    font-family: 'Kumbh Sans', sans-serif;
+    margin-top: 3rem;
+    letter-spacing: 1px;
+}
+.attribution a {
+    text-decoration: none;
+    color: hsl(228, 39%, 20%); 
+}
+
+
+
+
+
+
+
+
+
+
+

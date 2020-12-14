@@ -2,7 +2,8 @@
 
 ![Design preview for the Profile card component coding challenge](./design/desktop-preview.jpg)
 
-## Welcome! <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif width="50px">
+## Welcome! 
+<img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif width="50px">
 
 Thanks for checking out this front-end coding challenge.
 
